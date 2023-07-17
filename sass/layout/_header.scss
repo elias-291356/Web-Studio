@@ -1,0 +1,128 @@
+
+ .container {
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        display: flex;
+
+    }
+    .nav-items {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin-right: 76px;
+        color: var(--accent-color);
+        font-size: 18px;
+        font-family: Raleway, sans-serif;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+    }
+
+    .logo-span {
+        color: var(--primary-color);
+
+    }
+         .nav-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav, .address {
+        display: flex;
+    }
+
+
+
+    .nav {
+        align-items: center;
+
+
+        display: flex;
+        color: var(--primary-color);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+    }
+
+    .nav-item:not(:last-child) {
+        margin-right: 40px;
+    }
+
+    .address {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        color: var(--text-color);
+        font-weight: 400;
+
+    }
+
+    .address-item {
+        margin-right: 40px;
+
+    }
+
+    .address-item:last-child {
+        margin-right: 0px;
+    }
+    .nav-link {
+        display: block;
+        position: relative;
+        padding-top: 24px;
+        padding-bottom: 24px;
+
+        color: var(--primary-color);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+     .backlight-page::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        border-radius: 2px;
+        width: 100%;
+        background-color: #404bbf;
+    }
+
+    .backlight-page {
+        color: #404bbf;
+    }
+
+      .address-link {
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        color: var(--text-color);
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    @media    (max-width:428px){
+        .container {
+        width: 428px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color:rgb(143, 75, 75);
+
+    }
+    }
