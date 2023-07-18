@@ -1,4 +1,4 @@
-@media (min-width:320px) and (max-width:428px) {
+@media screen and (min-width:320px) and (max-width:428px) {
   .container {
     max-width: 428px;
     padding-left: 16px;
@@ -151,7 +151,7 @@
 
   .item-customer {
     max-width: 190px;
-    width: calc((100% - 2 * 8) / 2);
+
 
   }
 
@@ -161,13 +161,9 @@
   }
 
 
-
-
-
-
   .footer-content {
 
-    justify-content: center;
+    display: block;
     width: 428px;
 
   }
@@ -234,4 +230,15 @@
   .footer-label {
     width: 100%;
   }
-}
+
+  .sosial-media {
+    display: block;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer {
+    display: block;
+  }

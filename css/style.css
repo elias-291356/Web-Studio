@@ -163,7 +163,6 @@
         line-height: 1.5;
         letter-spacing: 0.32px;
 
-
     }
 
     .nav-item:not(:last-child) {
@@ -281,6 +280,7 @@
         flex-wrap: wrap;
         padding-top: 120px;
         padding-bottom: 120px;
+
     }
 
     .caption {
@@ -854,6 +854,7 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #ffffff;
+        margin-left: 120px;
 
     }
 
