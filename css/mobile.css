@@ -24,7 +24,9 @@
 /* ==========/PAGA-PORTFOLIO========= */
 
 /* ==========HEADER========= */
-
+:root {
+  --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 
 @media screen and (min-width:320px) and (max-width:428px) {
@@ -85,7 +87,7 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 250ms var(--cubic-bezier);
+    transition: opacity 250ms var(--cubic-bezier), visibility 250ms var(--cubic-bezier);
   }
 
   .mobile-menu-close-btn {
@@ -128,12 +130,15 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+
+
   }
 
   .mobile-modal {
     display: flex;
     flex-direction: column;
     row-gap: 40px;
+
 
 
 
@@ -483,9 +488,31 @@
 
   /* ==========/MAIN========= */
   /* ==========FOOTER========= */
+  /* ...........кнопка order service мод окно.......... */
 
+  .modal-window {
+    position: relative;
+    /* margin-right: 18px;
+    margin-left: 18px; */
+    max-width: 396px;
+  }
 
+  .backdrop {
+    width: 100%;
+    padding-right: 18px;
+    padding-left: 18px
+  }
 
+  .input-form,
+  .textarea-form {
+    width: 100%;
+  }
+
+  .modal-btn {
+    padding: 8px;
+  }
+
+  /* .........../кнопка order service мод окно.......... */
   /* ==========/FOOTER========= */
   /* ==========/PAGA-PORTFOLIO========= */
 
