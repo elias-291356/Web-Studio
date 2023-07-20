@@ -12,7 +12,10 @@
   <link rel="stylesheet" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/adaptation-style.css">
+  <link rel="stylesheet" href="./css/mobile.css">
+  <!-- <link rel="stylesheet" href="./css/adaptation-style.css"> -->
+  <link rel="stylesheet" href="./css/laptop.css">
+  <link rel="stylesheet" href="./css/tablet.css">
 
 
 </head>
@@ -30,11 +33,11 @@
           <li class="nav-item"><a href="./portfolio.html" class="link nav-link">Portfolio</a></li>
           <li class="nav-item"><a href="" class="link nav-link">Contacts</a></li>
         </ul>
-
-
-
-
-
+        <button type="button" class="btn-burger" data-modal-open-burger>
+          <svg width="32" height="22" class="burger">
+            <use href="./images/burger.svg#icon-burger"></use>
+          </svg>
+        </button>
 
       </nav>
       <address class="address">
@@ -47,14 +50,97 @@
         </ul>
       </address>
     </div>
+
+
+
+
+
+
+
+    <div class="mobile-menu" data-modal-burger>
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close-btn" data-modal-close-burger>
+          <svg width="8" height="8" class="mobile-menu-close-icon">
+
+            <use href="./images/close-burger.svg#icon-close-burger"></use>
+
+          </svg>
+        </button>
+
+
+
+
+
+        <ul class="list mobile-modal ">
+          <li class="mobile-modal-item"><a href="./index.html" class="link mobile-menu-link backlight-page">Studio</a>
+          </li>
+          <li class="mobile-modal-item"><a href="./portfolio.html" class="link mobile-menu-link">Portfolio</a></li>
+          <li class="mobile-modal-item"><a href="" class="link mobile-menu-link">Contacts</a></li>
+        </ul>
+        <div class="low-nav">
+
+          <ul class=" list modal-address">
+            <li>
+              <a href="tel:+11(000)111-11-11" class="link modal-tel">+11 (000) 111-11-11</a>
+            </li>
+            <li>
+              <a href="mailto:info@devstuvdio.com" class="link  modal-email">info@devstuvdio.com</a>
+            </li>
+          </ul>
+
+
+
+          <ul class="modal-nav list">
+            <li class="item-svg-modal">
+              <a href="" class="icon-svg-modal">
+                <svg class="fill-modal-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-svg-modal">
+              <a href="" class="icon-svg-modal">
+                <svg class="fill-modal-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-svg-modal">
+              <a href="" class="icon-svg-modal">
+                <svg class="fill-modal-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-svg-modal">
+              <a href="" class="icon-svg-modal">
+                <svg class="fill-modal-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
   </header>
+  </div>
+
   <main>
+
+
+
+
+
+
+
+
+
     <!-- section-banner 1  -->
     <section class="section-banner ">
 
       <div class="container content-wrap">
         <h1 class="caption">
-          Effective Solutions for Your Business</h1>
+          Effective Solutions <span class="big-letter">for</span> Your Business</h1>
         <button type="button" class="btn-banner" data-modal-open>Order Service</button>
       </div>
 
@@ -135,7 +221,7 @@
           <li class="item-employee">
             <img class="img-clean" src="./images/main-page/employee-1.jpg" alt="employee" width="264" height="260">
             <div class="wrap-title">
-              <h3 class="title">Mark Guerrero</h3>
+              <h3 class="title-employee">Mark Guerrero</h3>
               <p class="employee-subtitle">Product Designer</p>
               <ul class="employee-link list">
                 <li class="item-svg-team">
@@ -172,7 +258,7 @@
           <li class="item-employee">
             <img class="img-clean" src="./images/main-page/employee-2.jpg" alt="employee" width="264" height="260">
             <div class="wrap-title">
-              <h3 class="title ">Tom Ford</h3>
+              <h3 class="title-employee ">Tom Ford</h3>
               <p class="employee-subtitle">Frontend Developer</p>
               <ul class="employee-link list">
                 <li class="item-svg-team">
@@ -209,7 +295,7 @@
           <li class="item-employee">
             <img class="img-clean" src="./images/main-page/employee-3.jpg" alt="employee" width="264" height="260">
             <div class="wrap-title">
-              <h3 class="title">Camila Garcia</h3>
+              <h3 class="title-employee">Camila Garcia</h3>
               <p class="employee-subtitle">Marketing</p>
               <ul class="employee-link list">
                 <li class="item-svg-team">
@@ -246,7 +332,7 @@
           <li class="item-employee">
             <img class="img-clean" src="./images/main-page/employee-4.jpg" alt="employee" width="264" height="260">
             <div class="wrap-title">
-              <h3 class="title">Daniel Wilson</h3>
+              <h3 class="title-employee">Daniel Wilson</h3>
               <p class="employee-subtitle">UI Designer</p>
               <ul class="employee-link list">
                 <li class="item-svg-team">
@@ -345,7 +431,8 @@
     <div class="container footer-content">
       <div class="footer-wrap-text">
         <a href="./index.html" class="logo-footer link">web <span class="logo-span-footer">Studio</span> </a>
-        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
+        <p class="footer-text">Increase the flow of customers and sales your
+          business with digital marketing &
           growth solutions.</p>
       </div>
       <div class=" sosial-media">
@@ -495,7 +582,7 @@
   <use href="./images/vector(1).svg#icon-Vector-1"> </use>
 
 
-
+  <script src="./js/mobile-menu.js"></script>
   <script src="./js/modal.js"></script>
 </body>
 

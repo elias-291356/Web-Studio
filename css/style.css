@@ -62,42 +62,8 @@
         margin: 0 auto;
         display: flex;
 
-        @media (min-width:320px) and (max-width:428px) {
-            background-color: tomato;
-            max-width: 428px;
-
-        }
 
     }
-
-
-
-    /* @media (max-width:428px) {
-        .container {
-            width: 428px;
-            padding-left: 15px;
-            padding-right: 15px;
-            background-color: rgb(143, 75, 75);
-
-        }
-    } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -136,6 +102,16 @@
     }
 
     /* main page -  header  */
+    @media screen and (min-width:429px) and (max-width:4000px) {
+        .mobile-menu-container {
+            display: none;
+        }
+
+        .btn-burger {
+            display: none;
+        }
+    }
+
     .nav-items {
         display: flex;
         align-items: center;
@@ -845,7 +821,7 @@
     /* portfolio footer  */
     .footer-content {
         display: flex;
-        align-items: baseline;
+        /* align-items: baseline; */
     }
 
     .sosial-media {

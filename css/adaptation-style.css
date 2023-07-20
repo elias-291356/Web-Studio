@@ -192,53 +192,56 @@
   }
 
   .form-email {
-    max-width: 100%;
-  }
-
-
-
-
-
-
-
-
-
-  .footer-wrap-text {
-    margin-bottom: 72px;
-  }
-
-  .sosial-media {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 268px;
-    margin-bottom: 72px;
-  }
-
-  .subscribe-title-form {
-    max-width: 428px;
-    text-align: center;
-  }
-
-
-  .footer-link-svg {
-    width: 40px;
-  }
-
-  .footer-label {
     width: 100%;
-  }
 
-  .sosial-media {
-    display: block;
-    text-align: center;
-    margin-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-  }
 
-  .footer {
-    display: block;
-  }
+
+
+
+
+
+
+
+
+    .footer-wrap-text {
+      margin-bottom: 72px;
+    }
+
+    .sosial-media {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 268px;
+      margin-bottom: 72px;
+    }
+
+    .subscribe-title-form {
+      max-width: 428px;
+      text-align: center;
+    }
+
+
+    .footer-link-svg {
+      width: 40px;
+    }
+
+    .footer-label {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+    }
+
+    .sosial-media {
+      display: block;
+      text-align: center;
+      margin-left: 0px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .footer {
+      display: block;
+    }
