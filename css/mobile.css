@@ -492,25 +492,21 @@
 
   .modal-window {
     position: relative;
-    /* margin-right: 18px;
-    margin-left: 18px; */
+
     max-width: 396px;
+    transform: translate(-50%, -55%);
   }
 
   .backdrop {
-    width: 100%;
+
     padding-right: 18px;
     padding-left: 18px
   }
 
-  .input-form,
-  .textarea-form {
-    width: 100%;
-  }
 
-  .modal-btn {
-    padding: 8px;
-  }
+
+
+
 
   /* .........../кнопка order service мод окно.......... */
   /* ==========/FOOTER========= */

@@ -7,8 +7,19 @@
 /
 /
 / */
+/* ==========HEADER========= */
+
+@media screen and (min-width:769px) and (max-width:1158px) {
 
 
+  .modal-window {
+    position: fixed;
+    transform: translate(-50%, -55%);
+
+  }
+
+
+}
 
 /* ==========/HEADER========= */
 
