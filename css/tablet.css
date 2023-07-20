@@ -130,7 +130,7 @@
   /* ==========/OFFER========= */
   /* ==========TEAM========= */
   .item-employee {
-    max-width: calc((100% - 24px) / 2);
+    max-width: calc(100% - 24px / 2)
   }
 
   .items-employee {
@@ -149,7 +149,7 @@
   }
 
   .item-customer {
-    max-width: calc(100% / 3 - 48px);
+    max-width: calc(100% - 48px / 3);
   }
 
   /* ==========/CUSTOMER========= */
@@ -157,7 +157,7 @@
   .footer-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: start;
+    justify-content: center;
 
     max-width: 496px;
     row-gap: 72px;
@@ -176,7 +176,13 @@
 
   }
 
-  .form-footer {}
+  .social-title {
+    text-align: center;
+  }
+
+  .form-footer {
+    flex-direction: column;
+  }
 
   .footer-form {
     max-width: 453px;
@@ -189,6 +195,10 @@
 
   }
 
+  .logo-footer {
+    text-align: center;
+    width: 100%;
+  }
 
   .subscribe-title-form {}
 
@@ -222,6 +232,11 @@
     width: 356px;
     max-width: calc((100% - 24px) / 2);
 
+  }
+
+  .footer {
+    padding-right: 16px;
+    padding-left: 16px;
   }
 
   /* ==========/CARDS========= */

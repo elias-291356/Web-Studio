@@ -10,6 +10,8 @@
 
     */
 
+    /* ..... */
+
 
     :root {
         --primary-color: #2e2f42;
@@ -115,6 +117,7 @@
     .nav-items {
         display: flex;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .nav-list {
@@ -148,6 +151,7 @@
     .address {
         display: flex;
         align-items: center;
+
         margin-left: auto;
         color: var(--text-color);
         font-weight: 400;
@@ -162,6 +166,7 @@
     .address-item:last-child {
         margin-right: 0px;
     }
+
 
     .logo {
         display: flex;
@@ -518,7 +523,7 @@
 
 
     .item-customer {
-        max-width: calc((100% - 120px) / 6);
+        max-width: calc(100% - 120px / 6);
         height: 88px;
     }
 
