@@ -171,13 +171,14 @@
 
   }
 
-  @media screen and (min-width:526px) and (max-width:583px) {
+
+  /* @media screen and (min-width:526px) and (max-width:583px) {
     .footer-content {
       flex-direction: column;
     }
-  }
+  } */
 
-  @media screen and (min-width:584px) {
+  /* @media screen and (min-width:585px) and (max-width:768px) {
     .footer-content {
       justify-content: flex-start;
       padding-left: 0px;
@@ -187,7 +188,11 @@
     .container {
       margin: 0 auto;
     }
-  }
+
+
+  } */
+
+
 
   .sosial-media {
     display: flex;
