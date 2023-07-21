@@ -12,7 +12,16 @@
 
 
 /* ==========HEADER========= */
-@media screen and (min-width:429px) and (max-width:768px) {
+@media screen and (min-width:769px) {
+  .container {
+
+    max-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+
+  }
+
 
   .mobile-menu-container {
     display: none;
@@ -22,14 +31,6 @@
     display: none;
   }
 
-  .container {
-
-    max-width: 728px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin: 0 auto;
-
-  }
 
   .address>.address {
     flex-direction: column;
@@ -158,15 +159,16 @@
   /* ==========/CUSTOMER========= */
   /* ==========FOOTER========= */
   .footer-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 
-    max-width: 552px;
+
+    flex-direction: row;
+
+
+
+    width: 635px;
     row-gap: 72px;
     column-gap: 24px;
-    padding-right: 16px;
-    padding-left: 16px;
+
 
 
   }
@@ -197,17 +199,18 @@
   .sosial-media {
     display: flex;
     flex-direction: column;
+    align-self: baseline;
     align-items: center;
     margin-left: 0px;
 
   }
 
   .social-title {
-    text-align: center;
+    text-align: start;
   }
 
   .form-footer {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .footer-form {
@@ -222,11 +225,13 @@
   }
 
   .logo-footer {
-    text-align: center;
+    text-align: start;
     width: 100%;
   }
 
-  .subscribe-title-form {}
+  .subscribe-title-form {
+    width: 100%;
+  }
 
   /* ==========/FOOTER========= */
 
