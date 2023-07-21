@@ -112,6 +112,24 @@
         .btn-burger {
             display: none;
         }
+
+        .backlight-page::after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            bottom: -1px;
+            height: 4px;
+            border-radius: 2px;
+            width: 100%;
+            background-color: #404bbf;
+        }
+
+        .header {
+            background-color: var(--white-color);
+            border-bottom: 1px solid #e7e9fc;
+            box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+        }
     }
 
     .nav-items {
@@ -385,11 +403,11 @@
     /* main-page  what are we doing  */
     .our-offer {
         display: flex;
-        flex-wrap: wrap;
+
     }
 
     .product-items {
-        max-width: calc((100% - 48px) / 3)
+        max-width: calc((100% - 72px) / 3);
     }
 
     .product-items:not(:last-child) {
@@ -423,13 +441,14 @@
     .items-employee {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         gap: 24px;
 
     }
 
     .item-employee {
         text-align: center;
-        max-width: calc((100% - 72px) / 4);
+        max-width: calc(100% / 2);
         border-radius: 0px 0px 4px 4px;
         background-color: var(--white-color);
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -510,7 +529,8 @@
     .customer-items {
         gap: 24px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
 
     }
 
