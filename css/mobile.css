@@ -29,7 +29,7 @@
 }
 
 
-@media screen and (min-width:428px) {
+@media screen and (min-width:428px) and (max-width:767px) {
 
 
   .container {
@@ -68,7 +68,7 @@
   }
 
 
-  .burger {}
+
 
   .big-letter {
     text-transform: capitalize;

@@ -9,11 +9,11 @@
 / */
 /* ==========HEADER========= */
 
-@media screen and (min-width:769px) and (max-width:1158px) {
+@media screen and (min-width:1158px) {
 
   .container {
 
-    max-width: 728px;
+    max-width: 1158px;
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
@@ -24,6 +24,20 @@
     position: fixed;
     transform: translate(-50%, -55%);
 
+  }
+
+  .nav-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .burger, .btn-burger {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
   }
 
   .items-our-goal {
@@ -38,7 +52,6 @@
 
   .our-offer {
     justify-content: center;
-    flex-wrap: wrap;
     gap: 72px 24px;
   }
 
@@ -47,9 +60,9 @@
   }
 
   .footer-content {
-    flex-wrap: wrap;
-    width: 552px;
-    gap: 112px 24px;
+
+    width: 1158px;
+    gap: 100px 120px;
     padding-right: 0px;
     padding-left: 0px;
 
@@ -81,7 +94,13 @@
 
   .items-employee {
     justify-content: center;
+    flex-wrap: nowrap;
     gap: 72px 24px;
+  }
+
+  .customer-items {
+
+    flex-wrap: nowrap;
   }
 
   .items-goal {
