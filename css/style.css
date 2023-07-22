@@ -57,15 +57,7 @@
         padding: 0;
     }
 
-    .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-        display: flex;
 
-
-    }
 
 
 
@@ -104,26 +96,6 @@
     }
 
     /* main page -  header  */
-
-    .mobile-menu-container {
-        display: none;
-    }
-
-
-
-    .backlight-page::after {
-        content: '';
-        display: block;
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        height: 4px;
-        border-radius: 2px;
-        width: 100%;
-        background-color: #404bbf;
-
-    }
-
     .header {
         background-color: var(--white-color);
 
@@ -131,6 +103,15 @@
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
 
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        display: flex;
+
+
+    }
 
     .nav-items {
         display: flex;
@@ -138,16 +119,25 @@
         flex-wrap: wrap;
     }
 
-    .nav-list {
+    .logo {
         display: flex;
         align-items: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        margin-right: 76px;
+        color: var(--accent-color);
+        font-size: 18px;
+        font-family: Raleway, sans-serif;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
     }
 
-    .nav, .address {
-        display: flex;
+    .logo-span {
+        color: var(--primary-color);
+
     }
-
-
 
     .nav {
         align-items: center;
@@ -165,6 +155,47 @@
     .nav-item:not(:last-child) {
         margin-right: 40px;
     }
+
+    .backlight-page::after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        height: 4px;
+        border-radius: 2px;
+        width: 100%;
+        background-color: #404bbf;
+
+    }
+
+
+
+    .mobile-menu-container {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav, .address {
+        display: flex;
+    }
+
+
+
+
+
+
 
     .address {
         display: flex;
@@ -186,25 +217,7 @@
     }
 
 
-    .logo {
-        display: flex;
-        align-items: center;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        margin-right: 76px;
-        color: var(--accent-color);
-        font-size: 18px;
-        font-family: Raleway, sans-serif;
-        font-weight: 800;
-        line-height: 1.16;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-    }
 
-    .logo-span {
-        color: var(--primary-color);
-
-    }
 
 
     .nav-link {
@@ -264,7 +277,7 @@
         padding-bottom: 188px;
         border-top: 1px solid #E7E9FC;
         background-color: var(--primary-color);
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/main-page/people-office.jpg);
+        /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/main-page/people-office.jpg); */
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -273,6 +286,21 @@
         margin-right: auto;
         margin-left: auto;
     }
+
+
+    /* @media screen and (min-device-pixel-ratio: 2) and (min-width:1159px),
+    screen and (min-resolution:192dpi) and (min-width:1159px),
+    screen and (min-resolution: 2dppx) and (min-width:1159px) {
+        .section-banner {
+            background-image:
+                linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/main-page/backgrounds/desktop-bcg-@2x.png);
+        }
+
+
+
+    } */
 
     .section {
         display: flex;
@@ -801,6 +829,7 @@
     .portfolio-cards {
         display: flex;
         flex-wrap: wrap;
+        row-gap: 48px;
     }
 
     .portfolio-item {
@@ -963,7 +992,7 @@
 
     /* модальное окно банер  */
     .backdrop {
-        /* position: absolute; */
+
         position: fixed;
         top: 0;
         left: 0;
