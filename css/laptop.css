@@ -104,13 +104,14 @@
   .footer-content {
 
     width: 1158px;
-    gap: 100px 120px;
+    column-gap: 0px;
     padding-right: 0px;
     padding-left: 0px;
 
   }
 
   .sosial-media {
+    margin-right: 80px;
     margin-left: 0px;
   }
 
@@ -150,7 +151,9 @@
     margin-right: 0px;
   }
 
-
+  .footer-wrap-text {
+    margin-right: 120px;
+  }
 
   /* ==========/HEADER========= */
 
@@ -160,6 +163,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 

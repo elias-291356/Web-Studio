@@ -12,7 +12,7 @@
 
 
 /* ==========HEADER========= */
-@media screen and (min-width:768px) and (max-width:1157px) {
+@media screen and (min-width:768px) {
   .container {
 
     max-width: 768px;
@@ -41,6 +41,14 @@
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
 
+  .nav-items {
+    display: flex;
+  }
+
+  .nav {
+    display: flex;
+  }
+
   .mobile-menu-container {
     display: none;
   }
@@ -49,6 +57,9 @@
     display: none;
   }
 
+  .address {
+    display: flex;
+  }
 
   .address>.address {
     flex-direction: column;
@@ -129,6 +140,7 @@
   }
 
   .items-our-goal {
+    display: flex;
     row-gap: 72px;
   }
 
@@ -245,6 +257,7 @@
   }
 
   .form-footer {
+    display: flex;
     flex-direction: row;
   }
 
