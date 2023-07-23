@@ -263,11 +263,11 @@
            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
        }
 
-       .nav-link:hover {
+       .nav-link:hover, :focus {
            color: var(--hover-color);
        }
 
-       .address-link:hover {
+       .address-link:hover, :focus {
            color: var(--hover-color);
        }
 
@@ -426,7 +426,7 @@
        .subtitle {
            font-size: 16px;
            line-height: 1.5;
-           letter-spacing: 0.02em;
+           letter-spacing: 0.01em;
        }
 
        /* main-page  what are we doing  */
@@ -574,6 +574,7 @@
        .item-customer {
            max-width: calc(100% - 120px / 6);
            height: 88px;
+
        }
 
        .icon-svg-customer {
@@ -585,7 +586,7 @@
            height: 100%;
            border: 1px solid #8e8f99;
            border-radius: 4px;
-
+           outline: transparent;
            color: var(--costumers-color);
            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -701,6 +702,7 @@
        .block-link {
            display: block;
            transition: box-shadow 250ms var(--cubic-bezier);
+           outline: transparent;
        }
 
        /* ховер- карточки  */
@@ -763,12 +765,13 @@
        }
 
        .portfolio-nav {
-           /* display: flex; */
+           width: 100%;
+           display: flex;
            align-items: center;
        }
 
        .portfolio-menu {
-           /* display: flex; */
+           display: flex;
            margin-right: 40px;
        }
 
@@ -783,7 +786,7 @@
        }
 
        .buttons-items {
-           /* display: flex; */
+           display: flex;
            justify-content: center;
 
 
@@ -828,7 +831,7 @@
        }
 
        .portfolio-cards {
-           /* display: flex; */
+           display: flex;
            flex-wrap: wrap;
            row-gap: 48px;
        }
@@ -875,9 +878,11 @@
 
        /* portfolio footer  */
        .footer-content {
-           /* display: flex; */
+
+           display: flex;
            /* align-items: baseline; */
        }
+
 
        .sosial-media {
            font-weight: 500;
@@ -914,7 +919,7 @@
 
        /* форма футер  */
        .footer-form {
-           /* display: flex; */
+           display: flex;
            flex-direction: column;
            margin-left: 80px;
            max-width: 453px;
@@ -932,7 +937,7 @@
        }
 
        .form-footer {
-           /* display: flex; */
+           display: flex;
            gap: 24px;
        }
 
@@ -1010,14 +1015,14 @@
        }
 
        .modal-window {
-           /* position: fixed; */
+
            position: absolute;
            top: 50%;
            left: 50%;
            transform: translate(-50%, -50%) scale(1);
            padding: 72px 24px 24px 24px;
-           max-width: 408px;
-           min-height: 584px;
+
+
            background: #fcfcfc;
            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
            border-radius: 4px;
@@ -1026,7 +1031,7 @@
        }
 
        .modal-btn {
-           /* display: flex; */
+           display: flex;
            align-items: center;
            position: absolute;
            justify-content: center;

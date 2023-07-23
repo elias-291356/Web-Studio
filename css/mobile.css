@@ -34,12 +34,17 @@
 @media screen and (max-width:767px) {
 
 
+
   .container {
     max-width: 428px;
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
 
+  }
+
+  .container-portfolio {
+    max-width: 428px;
   }
 
   /* ==========/HEADER========= */
@@ -552,6 +557,16 @@
 
 
 
+  .modal-tel {
+    font-size: 36px;
+  }
+
+
+  @media screen and (max-width: 427px) {
+    .modal-tel {
+      font-size: 22px;
+    }
+  }
 
 
 

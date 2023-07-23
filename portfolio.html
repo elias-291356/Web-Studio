@@ -20,7 +20,7 @@
 <body>
   <!-- header  -->
   <header class="header">
-    <div class="container">
+    <div class="container container-portfolio">
       <nav class="portfolio-nav">
         <a href="./index.html" class="link logo">web <span class="logo-span">studio</span></a>
 
@@ -32,6 +32,11 @@
 
 
       </nav>
+      <button type="button" class="btn-burger" data-modal-open-burger>
+        <svg width="32" height="22" class="burger">
+          <use href="./images/burger.svg#icon-burger"></use>
+        </svg>
+      </button>
 
 
       <address class="address">
@@ -46,12 +51,78 @@
       </address>
     </div>
 
+    <div class="mobile-menu" data-modal-burger>
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close-btn" data-modal-close-burger>
+          <svg width="8" height="8" class="mobile-menu-close-icon">
+
+            <use href="./images/close-burger.svg#icon-close-burger"></use>
+
+          </svg>
+        </button>
+
+
+
+
+
+        <ul class="list mobile-modal ">
+          <li class="mobile-modal-item"><a href="./index.html" class="link mobile-menu-link backlight-page">Studio</a>
+          </li>
+          <li class="mobile-modal-item"><a href="./portfolio.html" class="link mobile-menu-link">Portfolio</a></li>
+          <li class="mobile-modal-item"><a href="" class="link mobile-menu-link">Contacts</a></li>
+        </ul>
+        <div class="low-nav">
+
+          <ul class=" list modal-address">
+            <li>
+              <a href="tel:+11(000)111-11-11" class="link modal-tel">+11 (000) 111-11-11</a>
+            </li>
+            <li>
+              <a href="mailto:info@devstuvdio.com" class="link  modal-email">info@devstuvdio.com</a>
+            </li>
+          </ul>
+
+
+
+          <ul class="modal-nav list">
+            <li class="item-svg-modal">
+              <a href="" class="icon-svg-modal">
+                <svg class="fill-modal-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-svg-modal">
+              <a href="" class="icon-svg-modal">
+                <svg class="fill-modal-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-svg-modal">
+              <a href="" class="icon-svg-modal">
+                <svg class="fill-modal-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item-svg-modal">
+              <a href="" class="icon-svg-modal">
+                <svg class="fill-modal-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
 
   </header>
   <main>
     <!-- main content -->
     <section class="section-portfolio">
-      <div class="container  content-wrap">
+      <div class="container container-portfolio content-wrap">
 
         <h1 class="visually-hidden">Gallery</h1>
 
@@ -235,7 +306,7 @@
   </main>
   <!-- footer -->
   <footer class="footer">
-    <div class="container footer-content">
+    <div class="container footer-content portfolio-footer ">
       <div class="footer-wrap-text">
         <a href="./index.html" class="logo-footer link">web <span class="logo-span-footer">Studio</span> </a>
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
@@ -295,7 +366,7 @@
       </div>
     </div>
   </footer>
-
+  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
