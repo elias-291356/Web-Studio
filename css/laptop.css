@@ -30,12 +30,15 @@
       linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
       url(../images/main-page/backgrounds/desktop-bcg-1x.png);
+    height: 600px;
+    padding-top: 188px;
   }
 
   @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution:192dpi),
   screen and (min-resolution: 2dppx) {
     .section-banner {
+      height: 600px;
       background-image:
         linear-gradient(rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)),
@@ -101,7 +104,52 @@
     max-width: 263px;
   }
 
+  .contaner-svg-goal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    max-width: 264px;
+    height: 112px;
+    background-color: var(--secondary-color);
+  }
+
+  /* ......... our offer ......... */
+
+
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+  }
+
+  .mobile-hidden {
+    display: flex;
+  }
+
+  .content-wrap {
+    display: block;
+
+  }
+
+  .headline {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    margin-bottom: 72px;
+  }
+
+
+
+
   .our-offer {
+    display: flex;
     justify-content: center;
     gap: 72px 24px;
   }
@@ -109,6 +157,12 @@
   .product-items {
     max-width: calc((100% - 24px) / 2);
   }
+
+
+
+  /* ......... / our offer ......... */
+
+
 
   .footer-content {
 
