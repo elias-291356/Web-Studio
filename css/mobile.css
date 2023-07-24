@@ -310,17 +310,7 @@
 
   .contaner-svg-goal,
   .icon-svg-goal {
-    position: absolute;
-    max-width: 0px;
-    height: 0px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+    display: none;
   }
 
   .items-goal {
@@ -492,9 +482,6 @@
     width: 100%;
   }
 
-  .footer-content {
-    flex-direction: column;
-  }
 
 
 
@@ -558,6 +545,8 @@
       font-size: 22px;
     }
   }
+
+
 
 
 
