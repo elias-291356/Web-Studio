@@ -77,6 +77,22 @@
 
   }
 
+  .address {
+    min-width: 350px;
+
+
+
+  }
+
+  .address>.address {
+    display: flex;
+    flex-direction: row;
+    row-gap: 0px;
+    column-gap: 40px;
+  }
+
+
+
   .portfolio-item {
     max-width: ((100% - 24px) / 3);
   }
@@ -178,6 +194,7 @@
 
 
   .sosial-media {
+
     margin-right: 80px;
     margin-left: 0px;
   }
