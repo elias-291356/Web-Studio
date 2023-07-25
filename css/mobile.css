@@ -89,6 +89,7 @@
   }
 
   .btn-burger {
+    stroke: #2E2F42;
     border: none;
     background-color: transparent;
     padding: 0px;
