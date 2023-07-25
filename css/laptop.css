@@ -100,6 +100,10 @@
     gap: 72px 24px;
   }
 
+  .title {
+    font-size: 20px;
+  }
+
   .subtitle {
 
     max-width: 263px;
@@ -166,15 +170,12 @@
   .footer-content {
 
     min-width: 1158px;
-    column-gap: 0px;
+
     padding-right: 0px;
     padding-left: 0px;
 
   }
 
-  .portfolio-footer {
-    column-gap: 0px;
-  }
 
   .sosial-media {
     margin-right: 80px;

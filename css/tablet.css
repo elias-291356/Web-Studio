@@ -209,10 +209,16 @@
 
     width: 635px;
     row-gap: 72px;
-    column-gap: 24px;
 
 
 
+
+  }
+
+
+
+  .footer-wrap-text {
+    margin-right: 24px;
   }
 
 
